@@ -19,14 +19,13 @@ def quit():
     os._exit(1)
 
 def show_tabl():
-    members, roles, status, eyecolor, members_status, members_roles, physical_charact = load_data()
+    members, roles, status, eyecolor, members_roles, physical_charact = load_data()
     print('==================== show_tabl ==================== init')
     print('Showing data tables...')
     print('>> members  \n',  members)
     print('>> roles    \n',    roles)
     print('>> status   \n',   status)
     print('>> eyecolor \n', eyecolor)
-    print('>> members_status   \n',   members_status)
     print('>> members_roles    \n',    members_roles)
     print('>> physical_charact \n', physical_charact)
     print('\n')
@@ -37,7 +36,7 @@ def show_tabl():
     print('Returning to main menu... \n')
 
 def proc_tabl():
-    members, roles, status, eyecolor, members_status, members_roles, physical_charact = load_data()
+    members, roles, status, eyecolor, members_roles, physical_charact = load_data()
     print('==================== proc_tabl ==================== init')
     # add... 
     print('\n')
