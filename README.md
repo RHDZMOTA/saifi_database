@@ -37,7 +37,7 @@ The information of the Student Union is stored in the following files:
 * **physical_charact.csv**: id_members,age,birthday,gender,height,weight,id_eyecolor
 
 ### Python scrypts
-* **load.py**: facilitates the loading of data in other scrypts.
+* **load.py**: facilitates the data loading in other scrypts.
 * **explorative.py**: statistical analysis and visualization tests.
 * **python_program.py**: general program to explore database, add new data, analyze (statistics) and visualize. 
 
