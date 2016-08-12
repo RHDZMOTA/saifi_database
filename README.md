@@ -1,8 +1,8 @@
 # SAIFI_DATABASE
 
 This proyect is a collaboration between the Financial Engineering Student Union and the Academic Council at Western Institute of Technology and Higher Education (ITESO).
-The main objective is to make availabe general information about the Student Union and to familiarize the Financial Engineering Students with the python language and git programming.
-Please feel free to contribure to this proyect. Meetups or consultancy can be given to students at the University (contact _saifi@iteso.mx_ for more information). 
+The main objective is to make availabe general information about the Student Union and to familiarize the students with the python language and git programming.
+Please feel free to contribure to this proyect. Meetups or consultancy can be given at the University (contact _saifi@iteso.mx_ for more information). 
 
 Authors:
 * Rodrigo Herández Mota: @rhdzmota
@@ -22,7 +22,7 @@ Authors:
     * **run_in_dev...** for Ubuntu or Debian (not available).
 3. Explore and modify the database at will. **Recommended**: see 'to do' section for helping
         building this proyect. 
-4. git push if you have a valuable contribution. 
+4. _git push_ if you have a valuable contribution. 
 5. Enjoy. 
 
 ## Contents
