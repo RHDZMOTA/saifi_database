@@ -17,11 +17,10 @@ Authors:
 ## Instructions
 1. Clone or download this proyect
 2. Depending your OS, run the files:
-    * run_in_windows.bat for Windows.
-    * run_in_mac... for Mac (not availabe, yet).
-    * run_in_dev... for Ubuntu or Debian (not available).
-3. Explore and modify the database at will. 
-    3.1 Recommended: see 'to do' section for helping
+    * **run_in_windows.bat** for Windows.
+    * **run_in_mac...** for Mac (not availabe).
+    * **run_in_dev...** for Ubuntu or Debian (not available).
+3. Explore and modify the database at will. **Recommended**: see 'to do' section for helping
         building this proyect. 
 4. git push if you have a valuable contribution. 
 5. Enjoy. 
@@ -29,14 +28,13 @@ Authors:
 ## Contents
 
 ### Databases
-Certain information of the Student Union is stored in the following files:
-* **members.csv**: ...
-* **roles.csv**:
-* **status.csv**:
-* **eyecolor.csv**:
-* **members_status.csv**:
-* **members_roles.csv**:
-* **physical_charact.csv**:
+The information of the Student Union is stored in the following files:
+* **members.csv**: id_members,name,surname,mobile_phone,email
+* **roles.csv**: id_roles,roles
+* **status.csv**: id_status,status
+* **eyecolor.csv**: id_eyecolor,color
+* **members_roles.csv**: id_members, id_roles,id_status,since,until
+* **physical_charact.csv**: id_members,age,birthday,gender,height,weight,id_eyecolor
 
 ### Python scrypts
 * **load.py**: facilitates the loading of data in other scrypts.
@@ -55,9 +53,7 @@ Certain information of the Student Union is stored in the following files:
     - Show processed tables (summary).
     - Add basic descriptive stats.
     - Capability to add new data. 
-    - ...
     - Update age with birthday information
-    - Add new data
     - ...
 - Make batch file for:
     - Mac
